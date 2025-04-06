@@ -17,7 +17,7 @@ class GitHubUploader {
   // Function to upload a file to GitHub repository
   Future<void> uploadFile(String filePath, String commitMessage) async {
     var url = Uri.parse(
-      'https://api.github.com/repos/$username/$repository/contents/${basename(filePath)}',
+      'https://github.com/sunny31247/-Flutter10-Module-5-Assignment.git/github_uploader.dart',
     );
 
     // Read file and encode it in Base64
